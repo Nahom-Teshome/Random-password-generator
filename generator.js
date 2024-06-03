@@ -36,11 +36,11 @@ function generatePassword()
 password1.addEventListener("click", function(){
   
   navigator.clipboard.writeText(password1.innerHTML)
-  
+  alert(password1.innerHTML + "  Copied")
 })
 password2.addEventListener("click", function(){
   let copypassword2 = password2.innerHTML
   navigator.clipboard.writeText(password1.innerHTML)
-  
+  alert(copypassword2 + "  Copied")
 })
 
