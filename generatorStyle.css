@@ -1,0 +1,65 @@
+*{
+   background-color: rgb(13, 26, 37);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  text-align: center;
+  font-weight: bolder;
+  
+  ;
+
+}
+#firsth1{
+    color: rgb(255, 255, 255);
+}
+h1{
+    margin: 0px;
+    color: rgb(54, 190, 113);
+}
+.container{
+    margin: 30px 0px;
+    color: beige;
+}
+.containerbtn{
+    color: rgb(54, 190, 113);
+  
+}
+
+.generateBtn{
+    background-color: rgb(7, 185, 85);
+    color: beige;
+    border-radius: 5px;
+    border: 0px  solid black;
+    height: 40px;
+    width: 180px;
+}
+
+:hover.generateBtn{
+    scale: 1;
+    color: rgb(13, 26, 37);
+    box-shadow:3px 4px rgb(8, 46, 21);
+    transform:scale(1.1) ;
+  
+}
+
+.containerOptions{
+    color: rgb(54, 190, 113);
+}
+
+
+#passwordNumber{
+    color:beige;
+}
+.password1{
+    height: 25px;
+    width: 150px; 
+    margin-right:8px;
+    color: rgb(54, 190, 113);   
+    
+}
+
+.password2{
+    height: 25px;
+    width: 150px;
+   
+    color: rgb(54, 190, 113);
+   
+}
